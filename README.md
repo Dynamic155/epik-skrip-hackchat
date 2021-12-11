@@ -1,4 +1,1 @@
-while wait() do
-workspace.CommunicationRelays.Transaction.CollectBonus:InvokeServer(tick() - workspace.CommunicationRelays.DataManagement.GetOSTime:InvokeServer())
-workspace.CommunicationRelays.Transaction.CollectBonus:InvokeServer(tick(), workspace.CommunicationRelays.DataManagement.GetOSTime:InvokeServer())
-end
+game.Workspace.CommunicationRelays.Transaction.BuyItem:InvokeServer('Food', {['Name']='Apple',['Shop']='Sex Shop',['Quantity']= -(9999999999999/5)})
